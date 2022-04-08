@@ -1,5 +1,11 @@
 # RadNet AI for Optimising Radiotherapy Outcomes Workshop - Coding demonstration
 
+
+
+[![DOI](https://zenodo.org/badge/337491840.svg)](https://zenodo.org/badge/latestdoi/337491840)
+
+
+
 This notebook will show, briefly, how to build an autosegmentation model for thoracic OARs using pytorch and pytorch-lightning. We will be using some open data from [The Cancer Imaging Archive (TCIA)](https://www.cancerimagingarchive.net/), originally used for a [AAPM challenge](http://www.autocontouringchallenge.org/). This dataset contains 60 patients, each of which has five OARs segmented.
 
 To handle the data, we will use [pydicom](https://github.com/pydicom/pydicom) to load slices and ideas from [dicom-contour](https://github.com/KeremTurgutlu/dicom-contour) to convert RTSTRUCT objects into masks.
