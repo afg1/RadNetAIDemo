@@ -3,7 +3,9 @@
 
 
 [![DOI](https://zenodo.org/badge/337491840.svg)](https://zenodo.org/badge/latestdoi/337491840)
-
+<a target="_blank" href="https://colab.research.google.com/github/afg1/RadNetAIDemo/blob/master/AIDemonstrationPractical.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 
 This notebook will show, briefly, how to build an autosegmentation model for thoracic OARs using pytorch and pytorch-lightning. We will be using some open data from [The Cancer Imaging Archive (TCIA)](https://www.cancerimagingarchive.net/), originally used for a [AAPM challenge](http://www.autocontouringchallenge.org/). This dataset contains 60 patients, each of which has five OARs segmented.
